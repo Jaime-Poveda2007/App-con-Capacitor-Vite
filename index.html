@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpendControl</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+
+    <h1>SpendControl</h1>
+
+    <div class="container">
+
+      <h2>Agregar gasto</h2>
+      <input id="nombre" type="text" placeholder="Nombre del gasto" />
+      <input id="entrada" type="number" placeholder="Valor del gasto" />
+
+      <select id="moneda">
+        <option value="COP">COP (Colombia)</option>
+        <option value="USD">USD (Dólar)</option>
+        <option value="EUR">EUR (Euro)</option>
+      </select>
+
+      <button onclick="agregar()">Agregar</button>
+
+      <h2>Historial</h2>
+      <ul id="lista"></ul>
+
+      <h2>Total</h2>
+      <p id="total">0</p>
+
+      <h2>Presupuesto mensual</h2>
+      <input id="presupuesto" type="number" placeholder="Ingresa tu presupuesto" />
+      <p id="restante"></p>
+
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

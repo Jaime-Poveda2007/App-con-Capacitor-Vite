@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name"> SPEND CONTROL</string>
+    <string name="title_activity_main"> SPEND CONTROL</string>
+    <string name="package_name">com.spendcontrol.com</string>
+    <string name="custom_url_scheme">com.spendcontrol.com</string>
+</resources>
